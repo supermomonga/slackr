@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'slackr/version'
+require 'slingr/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "slackr"
-  spec.version       = Slackr::VERSION
+  spec.name          = "slingr"
+  spec.version       = Slingr::VERSION
   spec.authors       = ["supermomonga"]
   spec.email         = ["hi@supermomonga.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
